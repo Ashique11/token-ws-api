@@ -1,0 +1,8 @@
+runtime: java17
+instance_class: E2
+
+entrypoint: java -jar target/TokenSystem-0.0.1-SNAPSHOT.jar
+
+env_variables:
+  WEBSOCKET_ROUTE: "/gs-guide-websocket/*"
+  SPRING_PROFILES_ACTIVE: production
